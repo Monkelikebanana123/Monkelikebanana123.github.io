@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+
+<html>
+
+    <head>
+        <title>My First Webpage</title>
+        <script src="https://kit.fontawesome.com/8f5f34e5bb.js" crossorigin="anonymous"></script>
+
+        <style>
+
+             li { 
+                  color:blue;
+                  background-color:maroon;
+             }
+             
+             ul{
+                  background-color:olive;
+
+             }
+             header{
+            background-color:dimgrey;
+            color:aliceblue;
+            text-align: center;
+            font-size: 50px;
+            border: 3px solid white;
+            }
+            .navber {
+               background-color:white;
+               border:solid black;
+               font-size: 20px;
+               position: sticky;
+               top:0px;
+            }
+            .navber th {
+                border: solid red;
+                padding: 5px;
+            }
+            footer {
+                background-color:grey;
+                color:deepskyblue;
+                font-size: 12px;
+                border: 3px solid;
+                padding-left: 5px;
+            }
+            .profile {
+                background-color:darkred;
+                text-align:center;
+            }
+            
+            h3 {
+                border: 5px solid black;
+                display:inline;
+            }
+            .box {
+                border: 5px solid black;
+                position: absolute;
+                top:100px;
+                left:50px;
+            }
+            #two {
+                position:fixed;
+                top: 50px;
+                left: 100px;
+               border: 5px solid blue;
+            }
+            .wrapper {
+                width: 900px;
+            }
+            .dropdown:hover .dropdown-content {
+                    display: block;
+            }
+            .dropdown-content {
+                display: none;
+                position: absolute;
+                background-color: white;
+                color:darkblue;
+                padding: 5px;
+                box-shadow: 5px 5px 10px black;
+            }
+        </style>
+        <link rel="stylesheet" href="css/main.css">
+        
+    </head>
+
+    <body>
+    
+      
+        <header>MY PERSONAL WEBSITE</header>
+        <div class="navbar">
+           <table>
+            
+        <div class="wrapper">
+            <div class="header">Header</div>
+            <div class="navbar">Navbar</div>
+            <div class="sidebar-left">Sidebar</div>
+            <div class="content">Content</div>
+            <div class="sidebar-right">Sidebar</div>
+            <div class="footer">Footer</div>
+       </div>
+   
+               <tr>
+                    <th> <a href="./main.html">Home</a></th>
+                    <th> <a href="./My_Favourite_show.html">Shows</a></th>
+                    <th> <a href="school.html"> <i class="fa fa-briefcase"></i>Projects</a></th>
+                 </tr>
+                </tr>
+            </table>
+        </div>
+        <div class="profile">
+            <h2> My name</h2>
+            <div class="dropdown">
+                <img src="img/EMOTINAL DAMAGE.jpg" height="150" class="fade-in">
+                <div class="dropdown-content">
+                    <img src="img/THE PHOTO OF FROG.jpg" height="200px"/>
+                </div>
+            </div>
+            <h2> BASIC INFORMATION!</h2>
+            <ol type="i">
+                    <li> My name is <mark>DARWISH</mark> </li>
+                    <li class=" even mark"> My favourite color is black</li>
+                    <li> I am 10 this year and next year I will be 11</li>
+                    <li> I study at Roboto Coding Academy</li>
+            </ol>
+        </div>
+
+        <h1><i class="fa-solid fa-poop"></i>Basic information </h1>
+        <ul> 
+            <li>My name is <b>Darwish<i class="fa-brands fa-waze"></i></b></li>
+            <li>My favourite colour is <b>black</b> and <b>white</b></li>
+            <li id="purple-li">I am <b>10</b> years old this year!</li>
+            <li class="green"> I study at White Sands Primary School<i class="fa-solid fa-face-smile"></i></li>
+        </ul>
+
+        <h1>Hobbies </h1>
+        <table border="1"> 
+            <tr>
+                <td> <img src="./img/fog.jpg" height=150> </td>
+                <td background="img/bgtable.jpg" class="green">
+                    This my <mark>favourite</mark> <b>character</b> and <b>meme</b>.
+                </td>
+                
+                <td> <img src="./img/Partnercappikachu.webp" height=150> </td>
+                <td style="color: rgb(0, 0, 0)">
+                  I like <b>Pokemon</b> and <b><mark>Pikachu</mark></b> is my<mark>favourite</mark> pokemon.
+                </td>
+            </tr>
+              <tr>  
+        
+                <td>  <img src="./img/Flappy_Bird_icon.png" height=150> </td>
+                <td style="color: darkorange">
+                   I like this game it is caled <b><mark>Flappy Bird</mark></b> 
+                </td>
+                 <td>  <img src="./img/9afd3b92ab41ffca7f368a8fcbd6d39a75894efe0edbc14cf1f067cf625e6678.webp" height=150> </td>
+                 <td style="color: darkslategray">
+                   This game is about a <b><mark>Dinosaur</mark></b> jumping over obstacles.
+                 </td>
+        
+              </tr>
+        
+        </table>
+        <h3 class="box">This is my first h3 element</h3>
+        <h3 id="two"> This is my second h3 element</h3>
+        <footer>
+            <p>Created by:Darwish </p>
+            <p>Contact Information: my_name@example.com </p>
+        </footer>
+</html>
